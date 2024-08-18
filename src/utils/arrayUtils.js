@@ -1,7 +1,7 @@
 export function transformData(users) {
     return users
         .filter(user => user.isActive)
-        .map(user => ({ id: user.id, name: user.name }))
+        .map(user => ({id: user.id, name: user.name}))
         .sort((a, b) => a.name.localeCompare(b.name));
 }
 
@@ -22,4 +22,19 @@ export function groupByCategory(items) {
         acc[item.category].push(item);
         return acc;
     }, {});
+}
+
+// Tarefa 5: Mesclar Arrays de Objetos
+export function mergeArrays(array1, array2) {
+    const mergedMap = new Map();
+
+    [...array1, ...array2].forEach(obj => {
+        if (mergedMap.has(obj.id)) {
+            mergedMap.set(obj.id, {...mergedMap.get(obj.id), ...obj});
+        } else {
+            mergedMap.set(obj.id, obj);
+        }
+    });
+
+    return Array.from(mergedMap.values());
 }
