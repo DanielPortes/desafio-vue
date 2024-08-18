@@ -12,3 +12,14 @@ export function countOccurrences(words) {
         return acc;
     }, {});
 }
+
+// Tarefa 4: Agrupamento de Objetos
+export function groupByCategory(items) {
+    return items.reduce((acc, item) => {
+        if (!acc[item.category]) {
+            acc[item.category] = [];
+        }
+        acc[item.category].push(item);
+        return acc;
+    }, {});
+}

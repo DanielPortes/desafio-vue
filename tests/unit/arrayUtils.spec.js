@@ -1,4 +1,4 @@
-import {countOccurrences, transformData} from '@/utils/arrayUtils';
+import {countOccurrences, groupByCategory, transformData} from '@/utils/arrayUtils';
 
 // Tarefa 1: Testar a função transformData
 describe('arrayUtils', () => {
@@ -33,3 +33,34 @@ describe('arrayUtils', () => {
     });
 });
 
+// Tarefa 4: Testar Agrupamento de Objetos
+// entrada:
+//
+// const items = [
+//     { name: 'apple', category: 'fruit' },
+//     { name: 'carrot', category: 'vegetable' },
+//     { name: 'banana', category: 'fruit' },
+//     { name: 'broccoli', category: 'vegetable' }
+// ];
+
+describe('groupByCategory', () => {
+    it('deve agrupar objetos por categoria', () => {
+        const items = [
+            {name: 'apple', category: 'fruit'},
+            {name: 'carrot', category: 'vegetable'},
+            {name: 'banana', category: 'fruit'},
+            {name: 'broccoli', category: 'vegetable'}
+        ];
+        const result = groupByCategory(items);
+        expect(result).toEqual({
+            fruit: [
+                {name: 'apple', category: 'fruit'},
+                {name: 'banana', category: 'fruit'}
+            ],
+            vegetable: [
+                {name: 'carrot', category: 'vegetable'},
+                {name: 'broccoli', category: 'vegetable'}
+            ]
+        });
+    });
+});
