@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "vue": "^3.4.37"
@@ -19,6 +20,7 @@
     "@vue/test-utils": "^2.4.6",
     "@vue/vue3-jest": "^27.0.0",
     "babel-eslint": "^10.1.0",
+    "gh-pages": "^6.1.1",
     "vite": "^5.4.1"
   }
 }
