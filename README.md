@@ -4,6 +4,12 @@ Este projeto faz parte de um desafio enviado por um amigo, a qual pertence a um 
 
 link do desafio: [Desafio](https://somber-surfboard-966.notion.site/TESTE-PROGRAMA-O-DESENVOLVEDOR-JUNIOR-6ca9dd5754a042c699c394f790bce435)
 
+link para Github Pages: [Github Pages](https://danielportes.github.io/desafio-junior/)
+
+Neste projeto tambem foi utilizado tecnicas de Continuous Integration e Continuous Deployment, a qual foi utilizado o Github Actions para realizar o deploy automatico no Github Pages.
+
+
+
 # Sobre o desenvolvedor
 
 Me chamo Daniel Fagundes, e estou em busca de novas oportunidades. Formando em Cienca da Computacao, com experiencia profissional em desenvolvimento de software.
@@ -12,10 +18,7 @@ Meu curriculo pode ser encontrado no link: [Curriculo](https://drive.google.com/
 
 Link do meu Linkedin: [Linkedin](https://www.linkedin.com/in/danielfportes/)
 
+# Outros desafios realizados
 
-
-# Vue 3 + Vite
-
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+- [Desafio P/ TECSCI](https://github.com/DanielPortes/meu-desafio)
+- [Meu Portifolio](https://github.com/DanielPortes/)
