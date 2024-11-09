@@ -1,6 +1,6 @@
 # Apresentacao
 
-Este projeto faz parte de um desafio enviado por um amigo, a qual pertence a um programa de contratacao.
+Este projeto faz parte de um programa de contratacao.
 
 link para Github Pages: [Github Pages](https://danielportes.github.io/desafio-junior/)
 
